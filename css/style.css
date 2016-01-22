@@ -1,0 +1,277 @@
+/* Reset + Definition de la typographie */ 
+
+body, html, p, ul, li, h1 {
+	padding:0;
+	margin:0;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:#FFF;
+}
+/* Section Accueil */
+
+.accueil {
+	height:100vh;
+	background-image: url("../images/payments-banner-graphic.png");
+	background-repeat:no-repeat;
+	background-size: cover;
+	color:#FFF;
+}
+.accueil .logo {
+	width:40px;
+	margin:20px;
+	display:inline-block;
+	vertical-align:middle;
+}
+.accueil .logo_text {
+	float:left;
+	font-size:20px;
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-weight:600;
+}
+.accueil ul {
+	float:right;
+}
+.accueil ul li {
+	text-transform:uppercase;
+	display:inline-block;
+	padding:25px 15px;
+	letter-spacing: 3px;
+}
+.accueil_text {
+	text-align:center;
+	padding-top:40vh;
+}
+.accueil .accueil_text h1 {
+	font-weight:500;
+	font-size:45px;
+}
+.accueil .accueil_text p {
+	font-family: 'Droid Serif', serif;
+	font-size:25px;
+	margin: 25px 0 35px 0;
+}
+.accueil .accueil_text button {
+	background-color:#FFF;
+	padding:15px 50px;
+	border-style:none;
+	border-radius:3px;
+	font-size:16px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:600;
+	color:#7777A9;
+}
+
+/* Section fonctionnalités */
+
+.fonctionnalites {
+	background-color: #FFF;
+	height:300px;
+	color:#545A63;
+	border-bottom:2px solid #E4E6E6;
+}
+.fonctionnalites h2 {
+	margin:15px 0;
+	font-weight:400;
+}
+.fonctionnalites img {
+	width:70px;
+}
+.fonctionnalites .quick, .fonctionnalites .beautiful, .fonctionnalites .secure {
+	width:30%;
+	height:auto;
+	text-align:center;
+	float:left;
+	margin:60px 0 0 20px;
+}
+.fonctionnalites .quick, .fonctionnalites .beautiful {
+	border-right:1px solid #E0E0E0;
+}
+.fonctionnalites .beautiful {
+	padding-right:20px;
+}
+
+/* Section fonctionnalités */
+
+.pricing {
+	height:180px;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: #F6F9FB;
+	padding:50px 0 60px 0;
+	line-height: 1.5;
+}
+.pricing .pricing_head {
+	color:#515254;
+	font-size:24px;
+	margin-bottom:20px;
+}
+.pricing .pricing_onedollar {
+	font-size: 80px;
+	font-weight: 500;
+	color:#8080BE;
+	display:inline-block;
+}
+.pricing .pricing_description {
+	display:inline-block;
+	text-align: left;
+	margin-left:15px;
+}
+.pricing .pricing_description p:first-child {
+	font-size: 32px;
+	font-weight: 500;
+	color: #505050;
+}
+.pricing .pricing_description p:last-child {
+	font-size:16px;
+	text-transform: none;
+	color:#A7A7A7;
+}
+
+/* Section Credit Card */
+
+.creditcard {
+	height:100px;
+	background-color: #4C535C;
+	color:#F6F9FB;
+	font-size:26px;
+	text-align: center;
+}
+.creditcard p {
+	padding:35px;
+}
+
+/* Section Integrates */
+
+.integrates, .getpaid, .smartpay {
+	height:500px;
+	color:#545A63;
+}
+.integrates .image, .integrates .text, .getpaid .image, .getpaid .text, .smartpay .image, .smartpay .text {
+	width:50%;
+	height:500px;
+	float:left;
+}
+.integrates .image, .smartpay .image {
+	overflow:hidden;
+	background-color:#7CD5EF; 
+}
+.integrates .image img, .smartpay .image img {
+	width:80%;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	top:50px;
+	border-radius:5px;
+}
+.integrates .text, .getpaid .text, .smartpay .text {
+	background-color: #FEFEFE;
+}
+.integrates .text p:first-child, .smartpay .text p:first-child {
+	padding:120px 100px 30px 100px;
+	font-size: 30px
+}
+.integrates .text p:last-child, .smartpay .text p:last-child{
+	padding:0 100px 0 100px;
+	font-size: 18px;
+	line-height: 1.7;
+	font-family: 'Droid Serif', serif;
+	color:#A7A7A7;
+}
+
+/* Section getpaid */
+
+.getpaid .image {
+	overflow:hidden;
+	background-color:#8080BE; 
+}
+.getpaid .image img {
+	width:80%;
+	margin:0 auto;
+	display:block;
+	position:relative;
+	top:50px;
+	border-radius:5px;
+}
+.getpaid .text p:first-child {
+	padding:120px 100px 30px 100px;
+	font-size: 30px
+}
+.getpaid .text p:last-child{
+	padding:0 100px 0 100px;
+	font-size: 18px;
+	line-height: 1.7;
+	font-family: 'Droid Serif', serif;
+	color:#A7A7A7;
+}
+
+/* Section smartpay */
+
+.smartpay {
+	border-bottom: 2px solid #E4E4E4;
+}
+
+/* Section freelance */
+
+.freelance {
+	height:150px;
+	text-align: center;
+	padding:50px 0;
+	background-color: #FCFCFC;
+	color:#494949;
+}
+.freelance p {
+	font-size:25px;
+	margin-bottom:20px;
+}
+.freelance button {
+	background-color:#00AA82;
+	padding:15px 50px;
+	border-style:none;
+	border-radius:3px;
+	font-size:16px;
+	letter-spacing:1px;
+	text-transform:uppercase;
+	font-weight:600;
+	color:#FFF;
+}
+
+/* Footer */
+
+footer {
+	height:200px;
+	background-color: #242629;
+	color:#999A9B;
+	padding:60px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+footer .container div h2 {
+	text-transform: none;
+	font-weight: 400;
+}
+footer .container div p {
+	text-transform: uppercase;
+}
+footer .container {
+	width:940px;
+	margin: 0 auto;
+}
+footer .container .products, footer .container .company, footer .container .contact{
+	width:30%;
+	height:auto;
+	margin-left: 20px;
+	float:left;
+}
+footer .container .products, footer .container .company {
+	font-size:14px;
+	font-weight: 700;
+}
+footer .container .contact p {
+	text-transform: none;
+	font-weight: 400;
+}
